@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200310085445_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200310085445_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200310093301_UpdateBloger2.cs" />
+    <Compile Remove="Migrations\20200310093301_UpdateBloger2.Designer.cs" />
+    <Compile Remove="Migrations\20200310100359_UpdateBloger3.cs" />
+    <Compile Remove="Migrations\20200310100359_UpdateBloger3.Designer.cs" />
+    <Compile Remove="Migrations\20200310105919_UpdateBloger2.cs" />
+    <Compile Remove="Migrations\20200310105919_UpdateBloger2.Designer.cs" />
+    <Compile Remove="Migrations\20200310110249_UpdateBloger2.cs" />
+    <Compile Remove="Migrations\20200310110249_UpdateBloger2.Designer.cs" />
+    <Compile Remove="Migrations\20200310110532_UpdateBloger2.cs" />
+    <Compile Remove="Migrations\20200310110532_UpdateBloger2.Designer.cs" />
+    <Compile Remove="Migrations\20200310111308_UpdateBloger3.cs" />
+    <Compile Remove="Migrations\20200310111308_UpdateBloger3.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.2" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
